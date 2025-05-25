@@ -1,0 +1,50 @@
+
+
+:root {
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: /*#ffffff*/rgb(255, 255, 255);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+body {
+
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.h1 {
+
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 11em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.5em;
+
+}
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+
+  }
+  
+}
