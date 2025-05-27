@@ -9,4 +9,19 @@
 
 }
 
+.WorldWin {
 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+#PhotoWidth {
+
+  width: 70%;
+
+
+ }

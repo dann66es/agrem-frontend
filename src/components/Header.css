@@ -12,7 +12,7 @@
 
 #Logo {
 
-  height: 65em;     
+  height: 6em;     
   padding-bottom: 1em;
 
 }
@@ -32,18 +32,34 @@
 .navbar a {
 
   font-family: 'Open Sans', sans-serif;
-  font-size: 4em;
+  font-size: 0.9em;
   font-weight: 600;
   color: black;
   text-decoration: none;
-  margin: 0 1em;
+  margin:  1em;
   transition: color 0.3s ease;
 
 }
 
-.navbar a:hover {
 
-  color: #007BFF; 
-  
+
+#messi {
+  background-color: rgb(45, 47, 94);  
+  color: rgba(254, 199, 0);         
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
+
+
+#messi:hover {
+  background-color: #3373b8; 
+  color: white;
+  box-shadow: 0 0 10px rgba(51, 115, 184, 0.5);
+}
