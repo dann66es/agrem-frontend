@@ -2,21 +2,21 @@
 
 #root {
 
+  position: relative;
   margin: 0;
   padding: 0;
   background-color: white;
-  position: relative;
 
 }
 
+.Paragraph {
 
-.Paragraph { 
-  
-  color: rgb(45, 47, 94);
+  text-align: center;
+  margin-top: 1.5em;
   font-family: 'Merriweather', serif;
   font-size: 2em;
   font-weight: bold;
-  text-align: center;
-  margin-top: 1.5em;
+  color: rgb(45, 47, 94);
+  
+}
 
-  }

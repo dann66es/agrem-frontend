@@ -6,21 +6,16 @@ import './Header.css'
 const Header = () => {
 
     return (
-        <div className="header">  
+
+        <div className = "header">  
 
             <Logo/>
 
-            <nav className="navbar">
+            <div className = "title">
 
-                <a className="a"  id="messi" href="#inicio">Inicio</a>
-                <a className="a"  id="messi" href="#afiliese">Afiliese</a>
-                <a className="a" id="messi" href="#nosotros">Nosotros</a> 
-                <a className="a" id="messi" href="#contacto">Contacto</a>
-                <a className="a" id="messi" href="#pagos">Pagos</a>
+                <h1>Asociación Para la Gestión del Riesgo Empresarial</h1>        
 
-            </nav>
-
-            
+            </div>
 
         </div>
     

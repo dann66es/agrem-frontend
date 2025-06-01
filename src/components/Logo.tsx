@@ -1,7 +1,7 @@
 
-  const Logo = () => {
+const Logo = () => {
 
-  return <img  className="Logo" src="/agrem_logo.svg" id="Logo" alt="Agrem logo"/>;
+  return <img  className = "Logo" src = "/agrem_logo.svg" id = "Logo" alt = "Agrem logo"/>;
 
 };
 
