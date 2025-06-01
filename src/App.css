@@ -9,19 +9,14 @@
 
 }
 
-.WorldWin {
 
+.Paragraph { 
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+  color: rgb(45, 47, 94);
+  font-family: 'Merriweather', serif;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5em;
 
-}
-
-#PhotoWidth {
-
-  width: 70%;
-
-
- }
+  }
