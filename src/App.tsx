@@ -2,7 +2,9 @@
 
 import Carousel from './components/Carousel/Carousel'
 import './App.css'
-import Header from './components/Header'
+import Header from './components/Header/Header'
+import styles from "./components/Header/Header.module.css"
+
 
 function App () {
   
@@ -14,13 +16,13 @@ function App () {
 
         <Header/>
 
-        <nav className = "navbar">
+        <nav className = {styles.navbar}>
 
-          <a className = "a" id = "messi" href = "#inicio">Inicio</a>
-          <a className = "a" id = "messi" href = "#afiliese">Afiliese</a>
-          <a className = "a" id = "messi" href = "#nosotros">Nosotros</a> 
-          <a className = "a" id = "messi" href = "#contacto">Contacto</a>
-          <a className = "a" id = "messi" href = "#pagos">Pagos</a>
+          <a className = {styles.a} id = {styles.messi} href = "#inicio">INICIO</a>          
+          <a className = {styles.a} id = {styles.messi} href = "#nosotros">NOSOTROS</a> 
+          <a className = {styles.a} id = {styles.messi} href = "#afiliese">AFILIESE</a>
+          <a className = {styles.a} id = {styles.messi} href = "#contacto">CONTACTO</a>
+          <a className = {styles.a} id = {styles.messi} href = "#pagos">PAGOS</a>
 
         </nav>
 
