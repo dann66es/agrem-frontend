@@ -1,0 +1,21 @@
+.container{
+
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.title {
+
+    margin-top: 2em;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.paragraph {
+
+    text-align: center;
+    color: #444;
+
+}

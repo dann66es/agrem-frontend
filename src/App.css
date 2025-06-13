@@ -11,10 +11,14 @@
 
 .Paragraph {
 
-  text-align: center;
+
+  text-align: justify;
   margin-top: 1.5em;
+  margin-left:2em;
+  margin-bottom: 2em;
+  margin-right: 2em;
   font-family: 'Merriweather', serif;
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: bold;
   color: rgb(45, 47, 94);
   

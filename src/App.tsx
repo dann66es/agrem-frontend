@@ -1,41 +1,36 @@
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import './App.css';
+import Header from './components/Header/Header';
+import styles from "./components/Header/Header.module.css";
 
-
-import Carousel from './components/Carousel/Carousel'
-import './App.css'
-import Header from './components/Header/Header'
-import styles from "./components/Header/Header.module.css"
-
+import Home from './pages/Home/Home';
+import Nosotros from './pages/Nosotros/Nosotros';
+import Afiliese from './pages/Afiliese/Afiliese';
+import Contacto from './pages/Contacto/Contacto';
+import Pagos from './pages/Pagos/Pagos';
 
 function App () {
-  
   return (
-  
-    <>
+    <BrowserRouter>
+      <Header />
 
-      <div>
+      <nav className={styles.navbar}>
+        <Link className={styles.a} id={styles.link} to="/">INICIO</Link>
+        <Link className={styles.a} id={styles.link} to="/nosotros">NOSOTROS</Link>
+        <Link className={styles.a} id={styles.link} to="/afiliese">AFILIESE</Link>
+        <Link className={styles.a} id={styles.link} to="/contacto">CONTACTO</Link>
+        <Link className={styles.a} id={styles.link} to="/pagos">PAGOS</Link>
+      </nav>
 
-        <Header/>
-
-        <nav className = {styles.navbar}>
-
-          <a className = {styles.a} id = {styles.messi} href = "#inicio">INICIO</a>          
-          <a className = {styles.a} id = {styles.messi} href = "#nosotros">NOSOTROS</a> 
-          <a className = {styles.a} id = {styles.messi} href = "#afiliese">AFILIESE</a>
-          <a className = {styles.a} id = {styles.messi} href = "#contacto">CONTACTO</a>
-          <a className = {styles.a} id = {styles.messi} href = "#pagos">PAGOS</a>
-
-        </nav>
-
-        <Carousel /> 
-        
-      </div>
-     
-      <p className = "Paragraph" > Curso Controlador de Eventos</p>
-
-    </>
-
-  )
-
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/afiliese" element={<Afiliese />} />
+        <Route path="/contacto" element={<Contacto />} />
+        <Route path="/pagos" element={<Pagos />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

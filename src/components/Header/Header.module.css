@@ -36,7 +36,7 @@
 
 }
 
-#messi {
+#link {
 
   display: inline-flex;
   align-items: center;
@@ -51,7 +51,7 @@
 
 }
 
-#messi:hover {
+#link:hover {
 
   background-color: #3373b8;
   color: white;
