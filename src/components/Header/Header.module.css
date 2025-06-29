@@ -3,14 +3,48 @@
 .header {
 
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between; /* cambio */
   align-items: center;
-  align-content: center;
-  background-color: rgb(255, 255, 255);
-  margin: 0.5em;
+  padding: 1rem 2rem;
+  gap: 1rem; /* espaciado más consistente */
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
+}
+
+.title {
+
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  animation: fadeInDown 0.8s ease-out forwards;
+
+}
+
+@keyframes fadeInDown {
+
+  to {
+
+    opacity: 1;
+    transform: translateY(0);
+
+  }
+
+}
+
+.title h1 {
+
+  font-family: 'Merriweather', serif;
+  font-size: clamp(1.5rem, 5vw, 2.7rem);
+  font-weight: bold;
+  color: rgb(45, 47, 94);
+  margin: 0;
+  line-height: 1.2;
+  
 }
 
 .navbar {
@@ -19,24 +53,32 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   width: 100%;
-  padding: 0;
+  padding: 1rem;
   box-sizing: border-box;
+  background-color: #ffffff;
+  border-top: 1px solid #e0e0e0;
 
 }
 
 .navbar a {
 
-  font-size: 1.2em;
-  font-weight: 600;
-  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #2d2f5e; 
   text-decoration: none;
-  margin: 0.5em;
   transition: color 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar a:hover {
+
+  color: #0077cc;
 
 }
 
-#link {
+.cta-button {
 
   display: inline-flex;
   align-items: center;
@@ -48,13 +90,15 @@
   color: rgba(254, 199, 0);
   cursor: pointer;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
 
 }
 
-#link:hover {
+.cta-button:hover {
 
   background-color: #3373b8;
   color: white;
   box-shadow: 0 0 10px rgba(51, 115, 184, 0.5);
-
+  
 }
+

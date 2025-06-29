@@ -24,24 +24,6 @@ body {
 
 }
 
-.title {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-h1 {
-
-  font-family: 'Merriweather', serif;
-  font-size: 2.7em;
-  font-weight: bold;
-  color: rgb(45, 47, 94);
-  margin: 0;
-
-}
-
 @media (prefers-color-scheme: light) {
 
   :root {

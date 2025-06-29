@@ -1,13 +1,18 @@
+
+
 import styles from './Home.module.css';
 import Carousel from '../../components/Carousel/Carousel';
 
 const Home = () => {
+
   return (
+
     <>
+
       <section className={styles.container}>
-        <h1 className={styles.title}>Bienvenido a agrem</h1>
-        <p className={styles.text}>
-          Esta es la página principal de nuestra organización.</p>
+
+        <h2 className={styles.title}>Bienvenido a AGREM</h2>
+        <p className={styles.text}>Aquí encontrarás toda la información sobre nuestra misión, servicios y demás información pertinente sobre nuestras actividades.</p>
 
       </section>
 
@@ -15,15 +20,24 @@ const Home = () => {
 
       <section id="sec">
 
-     <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rerum debitis cupiditate, ad dolor, commodi odit omnis impedit repellendus expedita magni eveniet voluptatem ex voluptas! Ipsum, amet. Minima, non sapiente. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, eius ab neque quo consequuntur aliquam nobis ipsum officiis unde. Fuga explicabo corrupti libero veniam aspernatur nemo impedit maiores cupiditate voluptatem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo at sequi quasi, temporibus et quas voluptatibus aperiam amet neque voluptate ea, architecto pariatur mollitia reprehenderit quam? Enim rerum quo necessitatibus!</p> 
+      <p className={styles.text}>
 
-      </section>
+      AGREM es una alianza estratégica liderada por la Policía Nacional de Colombia 
+      y el gremio empresarial, a nivel departamental, que une recursos, experiencia 
+      y tecnología para elevar los estándares de seguridad en la cadena logística. 
+      Mediante comunicación oportuna, intercambio responsable de información y 
+      capacitación continua, AGREM trabaja por prevenir el delito, mejorar la 
+      movilidad y reducir la siniestralidad vial, fortaleciendo así la 
+      competitividad y la responsabilidad social del sector empresarial.
 
+      </p>
 
-     
+      </section>     
 
     </>
+
   );
+
 };
 
 export default Home;

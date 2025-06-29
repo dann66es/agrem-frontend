@@ -1,8 +1,10 @@
 
 
-.Logo {
+.logo {
 
-  width: 8em;
-  height: 8em;
+  width: 8rem;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain; 
 
 }

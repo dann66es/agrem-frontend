@@ -5,7 +5,7 @@ import agrem_logo from "../../assets/agrem_logo.svg";
 
 const Logo = () => {
 
-  return <img className={styles.Logo} src = {agrem_logo} alt="Agrem logo" />; 
+  return <img className = {styles.logo} src = {agrem_logo} alt = "Agrem logo" />; 
 
 };
 

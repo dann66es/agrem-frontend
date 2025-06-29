@@ -11,7 +11,7 @@ const Header = () => {
 
             <Logo/>
 
-            <div className = "title">
+            <div className = {styles.title}>
 
                 <h1>Asociación Para la Gestión del Riesgo Empresarial</h1>        
 

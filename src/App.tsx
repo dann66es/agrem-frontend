@@ -15,11 +15,11 @@ function App () {
       <Header />
 
       <nav className={styles.navbar}>
-        <Link className={styles.a} id={styles.link} to="/">INICIO</Link>
-        <Link className={styles.a} id={styles.link} to="/nosotros">NOSOTROS</Link>
-        <Link className={styles.a} id={styles.link} to="/afiliese">AFILIESE</Link>
-        <Link className={styles.a} id={styles.link} to="/contacto">CONTACTO</Link>
-        <Link className={styles.a} id={styles.link} to="/pagos">PAGOS</Link>
+        <Link className={styles.a} id={styles.link} to="/">Inicio</Link>
+        <Link className={styles.a} id={styles.link} to="/nosotros">Nosotros</Link>
+        <Link className={styles.a} id={styles.link} to="/afiliese">Afíliese</Link>
+        <Link className={styles.a} id={styles.link} to="/contacto">Contacto</Link>
+        <Link className={styles.a} id={styles.link} to="/pagos">Pagos</Link>
       </nav>
 
       <Routes>
