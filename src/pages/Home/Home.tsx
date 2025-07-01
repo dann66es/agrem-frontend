@@ -9,18 +9,27 @@ const Home = () => {
 
     <>
 
-      <section className={styles.container}>
+      <section className = {styles.container}>
 
         <h2 className={styles.title}>Bienvenido a AGREM</h2>
-        <p className={styles.text}>Aquí encontrarás toda la información sobre nuestra misión, servicios y demás información pertinente sobre nuestras actividades.</p>
+
+        <p className={styles.paragraph}>
+
+          Aquí encontrarás toda la información sobre nuestra misión, servicios y demás información pertinente acerca de nuestras actividades.
+          
+        </p>
 
       </section>
 
-      <Carousel />
+      <section className = {styles.carouselWrapper}>
+
+        <Carousel />
+
+      </section>    
 
       <section id="sec">
 
-      <p className={styles.text}>
+      <p className = {styles.paragraph1}>
 
       AGREM es una alianza estratégica liderada por la Policía Nacional de Colombia 
       y el gremio empresarial, a nivel departamental, que une recursos, experiencia 

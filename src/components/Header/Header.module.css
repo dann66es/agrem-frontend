@@ -4,10 +4,10 @@
 
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; /* cambio */
+  justify-content: space-between; 
   align-items: center;
   padding: 1rem 2rem;
-  gap: 1rem; /* espaciado más consistente */
+  gap: 1rem; 
   background-color: #ffffff;
   border-bottom: 1px solid #e0e0e0;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
@@ -70,6 +70,7 @@
   text-decoration: none;
   transition: color 0.3s ease;
   font-family: 'Poppins', sans-serif;
+  
 }
 
 .navbar a:hover {

@@ -18,8 +18,9 @@ function App () {
         <Link className={styles.a} id={styles.link} to="/">Inicio</Link>
         <Link className={styles.a} id={styles.link} to="/nosotros">Nosotros</Link>
         <Link className={styles.a} id={styles.link} to="/afiliese">Afíliese</Link>
-        <Link className={styles.a} id={styles.link} to="/contacto">Contacto</Link>
         <Link className={styles.a} id={styles.link} to="/pagos">Pagos</Link>
+        <Link className={styles.a} id={styles.link} to="/contacto">Contacto</Link>
+     
       </nav>
 
       <Routes>

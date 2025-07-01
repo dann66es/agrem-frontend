@@ -1,0 +1,35 @@
+
+
+.container {
+
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 2.5rem 1rem 1.5rem;
+  text-align: center;
+
+}
+
+.title {
+
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  font-weight: 600;
+  color: #2d2f5e;
+
+}
+
+.paragraph {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: #444;
+  line-height: 1.6;
+  max-width: 60ch;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+

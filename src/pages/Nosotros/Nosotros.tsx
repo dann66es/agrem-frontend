@@ -1,20 +1,24 @@
-import styles from "./Nostros.module.css"
 
+
+import styles from "./Nosotros.module.css"
 
 const Nosotros = () => {
-  return(
 
+  return (
 
-    <section className={styles.container}>
-      <h1 className={styles.title}>Acerca de nosotros</h1> 
-      <p className={styles.paragraph}>NOSOTROS JAJAXD</p>
+    <section className = {styles.container}>
 
-    </section>
+      <h2 className = {styles.title}>Nosotros</h2> 
       
+      <p className =  {styles.paragraph}>
+        
+        Conoce quiénes somos, nuestra misión y el compromiso que nos impulsa a trabajar por la seguridad y el bienestar del sector empresarial.
 
+      </p>
 
-  )
-    
+    </section>    
+
+  )    
 
 };
 

@@ -9,18 +9,19 @@
 
 }
 
-.Paragraph {
+html {
 
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 
-  text-align: justify;
-  margin-top: 1.5em;
-  margin-left:2em;
-  margin-bottom: 2em;
-  margin-right: 2em;
-  font-family: 'Merriweather', serif;
-  font-size: 1.8em;
-  font-weight: bold;
-  color: rgb(45, 47, 94);
+}
+
+*,
+*::before,
+*::after {
+
+  box-sizing: border-box;
   
 }
+
 
