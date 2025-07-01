@@ -3,11 +3,14 @@ import './App.css';
 import Header from './components/Header/Header';
 import styles from "./components/Header/Header.module.css";
 
+
+
 import Home from './pages/Home/Home';
 import Nosotros from './pages/Nosotros/Nosotros';
 import Afiliese from './pages/Afiliese/Afiliese';
 import Contacto from './pages/Contacto/Contacto';
 import Pagos from './pages/Pagos/Pagos';
+import Footer from "./components/Footer/Footer";
 
 function App () {
   return (
@@ -30,7 +33,23 @@ function App () {
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/pagos" element={<Pagos />} />
       </Routes>
+
+
+    <section>
+
+    <Footer/>
+
+    </section>
+
+       
+
+ 
+
     </BrowserRouter>
+
+
+
+
   );
 }
 

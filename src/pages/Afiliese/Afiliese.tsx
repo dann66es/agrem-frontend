@@ -13,8 +13,11 @@ const Afiliese = () => (
       Descubre cómo puedes ser parte de nuestra organización y acceder a todos los beneficios.
 
     </p>
+  
+    
 
   </section>
+  
   
 );
 
